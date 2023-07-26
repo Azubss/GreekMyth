@@ -1,0 +1,36 @@
+{
+  "name": "greekgod",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "sass scss/main.scss css/main.css",
+    "watch-sass": "sass --watch scss/main.scss css/main.css",
+    "start": "node app.js",
+    "dev": "concurrently \"npm run watch-sass\" \"nodemon app.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjp132/greekgod.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hjp132/greekgod/issues"
+  },
+  "homepage": "https://github.com/hjp132/greekgod#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-handlebars": "^7.0.7",
+    "mongodb": "^5.5.0",
+    "mongoose": "^7.2.0",
+    "node-sass-middleware": "^1.0.1",
+    "sass": "^1.62.1"
+  },
+  "devDependencies": {
+    "concurrently": "^8.0.1",
+    "nodemon": "^2.0.22"
+  }
+}

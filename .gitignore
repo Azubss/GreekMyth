@@ -1,0 +1,54 @@
+# .gitignore
+
+# Node.js related
+node_modules/
+npm-debug.log*
+yarn-error.log*
+yarn-debug.log*
+yarn.lock
+package-lock.json
+
+# Build and cache directories
+dist/
+.cache/
+
+# Log files
+logs/
+*.log
+*.log.*
+
+# Environment and configuration files
+.env
+.env.*
+.config/
+
+# Editor and IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# OS generated files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+desktop.ini
+
+# Temp files
+*.tmp
+*.temp
+*.tlog
+
+# Test and coverage files
+coverage/
+.nyc_output/
+*.test.js
+
+# Other common files to ignore
+*.pid
+*.seed
+*.pid.lock
+
+# End of .gitignore

@@ -1,9 +1,0 @@
-body {
-    background: orange;
-}
-
-// one cool thing about .scss is you can break down your stylesheet into seperate files
-// which will then be compiled and optimised so please break down your components and reference
-//them inside the main file like this
-@import "settings/variables.scss";
-@import "components/header.scss";

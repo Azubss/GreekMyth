@@ -1,0 +1,38 @@
+<div class="god-page {{primaryColour1}} god-grid" >
+  <div class="god-info"> 
+<h1>{{name}}</h1>
+    <div class="upbringing">
+      <h2>Upbringing</h2>
+      <p>{{upbringing}}</p>
+    </div>
+    <div class="olympus">
+      <h2>Place on Olympus</h2>
+      <p>{{olympus}}</p>
+    </div>
+    <div class="relationships">
+      <h2>Relationships</h2>
+      </div>
+    <div class="description">
+      <h2>Description</h2>
+      <p>{{description}}</p>
+  </div>
+  </div>
+  <div class="god-image">
+    <img src='/photos/{{name}}.jpg' alt="{{name}}">
+
+  </div>
+    
+ 
+
+
+    
+    
+    {{!-- <ul>
+      {{#each god.relationships}}
+        <li>{{this}}</li>
+      {{/each}}
+    </ul> --}}
+</div>
+<script>
+  document.body.classList.add('{{bodyClass}}');
+</script>

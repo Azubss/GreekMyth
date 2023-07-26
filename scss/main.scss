@@ -1,0 +1,139 @@
+$olympus-white: #ffffff;
+$olympus-gold: #ffd700;
+
+@import "settings/variables.scss";
+@import "components/header.scss";
+@import "components/godpage.scss";
+
+body {
+  background-color: $olympus-white;
+  color: black;
+  font-family: 'Arial', sans-serif;
+ 
+}
+
+h1{
+  font-family: "OLMFONT", fallback, sans-serif;
+}
+
+nav-bar {
+  padding: 20px 0;
+}
+
+.nav-bar ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+
+.nav-bar a {
+  font-size: 20px;
+}
+ 
+.nav-bar input[type="text"] {
+  margin-right: 10px;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.content img {
+  max-width: 50%; /* Adjust this value as needed */
+}
+
+@font-face {
+  font-family: "OLMFONT";
+  src: url("fonts/OLMFONT.ttf") format("truetype");
+}
+
+img {
+  border-radius: 50%;
+}
+.home-logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+  width: 200px;
+    height: 200px;
+    img{
+      width: 100%;
+      height: 100%;
+    }
+}
+
+.olympus-page {
+  width: 80%;
+  margin: 0 auto;
+
+  h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    color: $olympus-gold;
+  }
+
+  .god-list {
+    h2 {
+      color: darken($olympus-gold, 10%);
+      margin-bottom: 1rem;
+    }
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        margin-bottom: 0.5rem;
+
+        a {
+          color: darken($olympus-gold, 20%);
+          text-decoration: none;
+
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}
+

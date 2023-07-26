@@ -1,0 +1,10 @@
+<div class="parents">
+    {{#each parents as |parent|}}
+        {{> person parent}}
+    {{/each}}
+    <div class="children">
+        {{#each children as |child|}}
+            {{> person child}}
+        {{/each}}
+    </div>
+</div>
